@@ -1,0 +1,51 @@
+.tour{
+    background-color: #dfdbdb;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+}
+.tour img{
+    width: 100%;
+    border-top-left-radius: 00.8rem;
+    border-top-right-radius: 00.8rem;
+    display: block;
+}
+.img-container{
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: block;
+    background-color: rgb(245, 126, 162);
+    padding: 0.2rem 0.4rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+.img-container:hover .close-btn{
+    opacity: 1;
+}
+.tour-info{
+    padding: 1rem 0.5rem;
+}
+.tour-info h3{
+    text-transform: uppercase;
+    color: gray;
+}
+.tour-info h4 ,h5{
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+.tour-info button{
+    background-color: rgb(245, 126, 162);
+    padding: 0.2rem 0.4rem;
+    border: none; 
+    border-radius: 0.3rem;  
+    cursor: pointer;
+}
